@@ -1,0 +1,23 @@
+<Solution>
+  <Folder Name="/01 - API/">
+    <Project Path="src/Unimar.ProjetoAcademico.Api/Unimar.ProjetoAcademico.Api.csproj" Id="4a0e7532-d89c-4170-927f-d4c3632caf43" />
+  </Folder>
+  <Folder Name="/02 - Application Service/">
+    <Project Path="src/Unimar.ProjetoAcademico.ApplicationService/Unimar.ProjetoAcademico.ApplicationService.csproj" Id="34a738e3-7085-459a-aef5-1fd13ea0bd3e" />
+  </Folder>
+  <Folder Name="/03 - Domain/">
+    <Project Path="src/Unimar.ProjetoAcademico.Domain/Unimar.ProjetoAcademico.Domain.csproj" />
+  </Folder>
+  <Folder Name="/04 - Infra/" />
+  <Folder Name="/04 - Infra/04.1 - Data/">
+    <Project Path="src/Unimar.ProjetoAcademico.Infra.Data/Unimar.ProjetoAcademico.Infra.Data.csproj" />
+  </Folder>
+  <Folder Name="/04 - Infra/04.2 - CrossCutting/">
+    <Project Path="src/Unimar.ProjetoAcademico.Infra.CrossCutting.FluentValidation/Unimar.ProjetoAcademico.Infra.CrossCutting.FluentValidation.csproj" Id="81bff54c-bada-4dd7-a760-587a0b6e8722" />
+    <Project Path="src/Unimar.ProjetoAcademico.Infra.CrossCutting.IoC/Unimar.ProjetoAcademico.Infra.CrossCutting.IoC.csproj" Id="67d4cb59-0c60-4b59-909c-ea99eb738865" />
+    <Project Path="src/Unimar.ProjetoAcademico.Infra.CrossCutting.MediatoR/Unimar.ProjetoAcademico.Infra.CrossCutting.MediatoR.csproj" Id="995f1936-abd5-4650-8bd3-0a70f388ec72" />
+    <Project Path="src/Unimar.ProjetoAcademico.Infra.CrossCutting.NotificationPattern/Unimar.ProjetoAcademico.Infra.CrossCutting.NotificationPattern.csproj" Id="260ae6ec-b05d-4160-8e18-bc0d80295618" />
+    <Project Path="src/Unimar.ProjetoAcademico.Infra.CrossCutting.Swagger/Unimar.ProjetoAcademico.Infra.CrossCutting.Swagger.csproj" Id="00b065b3-0eb3-4c16-8f2c-5c49581d4ca2" />
+    <Project Path="src/Unimar.ProjetoAcademico.Infra.CrossCutting.ServiceNotification/Unimar.ProjetoAcademico.Infra.CrossCutting.ServiceNotification.csproj" Id="ccc2925a-a82e-468b-8cf0-a2c64897eb22" />
+  </Folder>
+</Solution>
