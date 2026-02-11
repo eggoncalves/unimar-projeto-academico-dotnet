@@ -25,12 +25,12 @@ O projeto segue uma arquitetura em camadas:
 - **MediatR** - Padrão Mediator
 - **FluentValidation** - Validações
 - **Swagger/OpenAPI** - Documentação da API
-- **SQL Server** (via Entity Framework)
+- **PostgreSQL** (via Entity Framework)
 
 ## ⚙️ Pré-requisitos
 
 - [.NET 10 SDK](https://dotnet.microsoft.com/download/dotnet/10.0)
-- SQL Server (Local ou Azure)
+- PostgreSQL (Local ou Docker)
 - Visual Studio 2022/2026 ou VS Code
 
 ## 🔧 Configuração e Instalação
@@ -50,7 +50,14 @@ dotnet tool install --global dotnet-ef
 
 ### 3. Configure a Connection String
 
-Edite o arquivo `appsettings.json` no projeto `Unimar.ProjetoAcademico.Api` com sua connection string do SQL Server.
+Edite o arquivo `appsettings.json` no projeto `Unimar.ProjetoAcademico.Api` com sua connection string do PostgreSQL.
+
+Exemplo de connection string:
+```json
+"ConnectionStrings": {
+  "DefaultConnection": "Host=localhost;Port=5432;Database=ProjetoAcademico;Username=seu_usuario;Password=sua_senha"
+}
+```
 
 ### 4. Execute as Migrations
 
