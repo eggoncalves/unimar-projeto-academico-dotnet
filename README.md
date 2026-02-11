@@ -170,7 +170,7 @@ Este é um projeto acadêmico desenvolvido para fins educacionais.
 
 ## 👥 Autores
 
-Projeto desenvolvido por alunos da UNIMAR - Universidade de Marília.
+Projeto desenvolvido por Eduardo Gustavo Gonçalves para o Curso de Pós Graduação da UNIMAR - Universidade de Marília.
 
 ---
 
