@@ -480,3 +480,4 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
+/src/Unimar.ProjetoAcademico.Infra.Data/Firebase/SA/AO_VIVO_unimarzapaovivo-firebase-adminsdk-fbsvc-4be90d93e8.json

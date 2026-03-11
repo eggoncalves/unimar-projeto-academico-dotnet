@@ -7,6 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FirebaseAdmin" Version="3.4.0" />
+    <PackageReference Include="Google.Cloud.Firestore" Version="4.2.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.2">
       <PrivateAssets>all</PrivateAssets>
@@ -24,6 +26,10 @@
     <ProjectReference Include="..\Unimar.ProjetoAcademico.ApplicationService\Unimar.ProjetoAcademico.ApplicationService.csproj" />
     <ProjectReference Include="..\Unimar.ProjetoAcademico.Domain\Unimar.ProjetoAcademico.Domain.csproj" />
     <ProjectReference Include="..\Unimar.ProjetoAcademico.Infra.CrossCutting.ServiceNotification\Unimar.ProjetoAcademico.Infra.CrossCutting.ServiceNotification.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Firebase\SA\" />
   </ItemGroup>
 
 </Project>
